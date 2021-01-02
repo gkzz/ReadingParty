@@ -7,7 +7,7 @@ $ cd contents/${BOOK_TITLE}/${EVENT_DATE}
 
 # https://github.com/${YOUR_GITHUB_ACCOUNT}
 $ touch ${YOUR_GITHUB_ACCOUNT}.md
-$ $ tree contents
+$ tree contents
 contents
 └── Building-Event-Driven-Microservices  ## ${BOOK_TITLE}
     ├── 20210103                         ## ${EVENT_DATE}
