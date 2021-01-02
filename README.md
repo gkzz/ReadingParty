@@ -10,6 +10,7 @@ $ touch ${YOUR_GITHUB_ACCOUNT}.md
 $ $ tree contents
 contents
 └── Building-Event-Driven-Microservices  ## ${BOOK_TITLE}
-    └── 20210103                         ## ${EVENT_DATE}
-        └── gkzz.md                      ## ${YOUR_GITHUB_ACCOUNT}
+    ├── 20210103                         ## ${EVENT_DATE}
+    │   └── gkzz.md                      ## ${YOUR_GITHUB_ACCOUNT}
+    └── info.md                          ## links of ${BOOK_TITLE}
 ```
