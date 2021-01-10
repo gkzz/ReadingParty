@@ -14,7 +14,7 @@ Building Event-Driven Microservices
   - Chap.3-4
 
 - [20210117](./20210117)
-  - Chap.
+  - Chap.5-6
 
 - [20210131](./20210131)
   - Chap.
