@@ -1,5 +1,8 @@
 - [今さらProtocol Buffersと、手に馴染む道具の話](https://qiita.com/yugui/items/160737021d25d761b353)
 
+- delete記録残らない
+- update記録残るけど
+
 - commentよりサンプルデータ、最大桁数
   - ライブラリ問題ｗｗｗ
   - 勝手に入れるなよー

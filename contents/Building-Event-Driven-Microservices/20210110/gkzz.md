@@ -6,9 +6,12 @@
 ### Chap.3
 - スキーマ定義個別にやるとなるとめんどくさいのかな？
   - > Duplicating efforts across services to ensure a consistent view of implicitly defined data is nontrivial and best avoided completely.
+  - スキーマ定義はやったほうがよい。
+  - 一人運用からチーム運用になるとき、スキーマは定義されていたほうがよさそう。
 
 - `Schema Definition Comments` で出てくる、イベントに関するcommentについて
   - commentも更新する手間が煩わしくない？
+    - コメントないとツライ
   - コメントがほしくなるとして単位は必要そう
     - > For example, a datetime field’s comments could specify if the format is UTC, ISO, or Unix time.
 
