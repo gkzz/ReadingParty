@@ -147,13 +147,14 @@ Source: [『Time, Clocks, and the Ordering of Events in a Distributed System』�
 
 #### Out-of-Order and Late-Arriving Events
 - Microserviceごとに「遅れているとみなす基準が違う」
+
 -> One microservice may consider any out-of-order events as late, whereas another may be fairly tolerant and require many hours of wall-clock or event time to pass before considering an event to be late
 
 - 原因
   - out-of-order data
     - >  when data is consumed from a stream that is already out of order or when events are being sourced from an external system with existing out-of-order timestamps.
-　 - > Multiple producers writing to multiple output partitions 
-     - e.g. Repartitioning 
+    - > Multiple producers writing to multiple output partitions 
+      - e.g. Repartitioning 
 
 #### Windowing
 - grouping events together by time. 
@@ -162,4 +163,4 @@ Source: [『Time, Clocks, and the Ordering of Events in a Distributed System』�
 
 |Tumbling|Sliding|Session|
 |------------|---------|-----------|
-|a fixed size|a fixed window size and incremental step|not-fized|with a session gap due to inactivity|
+|a fixed size|a fixed window size and incremental step|not-fixed|
