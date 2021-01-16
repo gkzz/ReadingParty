@@ -29,7 +29,7 @@
     > Apache Beam が追跡するウォーターマークは、特定のウィンドウのすべてのデータがパイプラインに届くときを予測するためのシステムの概念です。
 
     Source: [Apache Beamのプログラミング モデル](https://cloud.google.com/dataflow/docs/concepts/beam-programming-model?hl=ja)
- - 本書で挙げられていた参考資料：[A whitepaper from Google ](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43864.pdf) 
+    - 本書で挙げられていた参考資料：[A whitepaper from Google ](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43864.pdf) 
 
 
 - `fundamental issues in stream processing`という観点での落とし所
