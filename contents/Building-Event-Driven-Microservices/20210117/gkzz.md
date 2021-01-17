@@ -10,7 +10,8 @@
 - `data locality`について深堀した
   - そもそも`data locality`とは
     - > ローカリティ（locality）パフォーマンス最適化の一種で、頻繁に同時に必要になる複数のデータ片を同じ場所に置くこと。
-     Source: [データ指向アプリケーションデザイン ―信頼性、拡張性、保守性の高い分散システム設計の原理](https://learning.oreilly.com/library/view/untitled/9784873118703/)
+
+      Source: [データ指向アプリケーションデザイン ―信頼性、拡張性、保守性の高い分散システム設計の原理](https://learning.oreilly.com/library/view/untitled/9784873118703/)
   - jsonやNoSQLはlocalityの考えが使われている
     - > JSONの表現であれば、すべての関連情報は1カ所に集まっているので、一度のクエリだけで十分
     - > リレーショナルの例でプロフィールをフェッチしようとすれば、複数のクエリを実行する
