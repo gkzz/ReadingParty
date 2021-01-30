@@ -5,28 +5,24 @@
 
 ### Chap.7
 
-Q. （ Each stateful partitionが）Materialized、実体化されるとは、「何がどうなる」か？
-↓の2つのmaterializedは別のニュアンス？後者のとは、 Materialized state  になることか？
+- （ Each stateful partitionが）Materialized、実体化されるとは、「何がどうなる」のでしょうか？
+  - 以下の2つのmaterializedは別のニュアンス？
+  - 後者の`Each stateful partition is materialized twice` とは、 Materialized state  になることか？
+  - 冒頭より
+    - > `Materialized state`
+    - > A projection of events from the source event stream (immutable)
 
-冒頭より
-> `Materialized state`
->
-> A projection of events from the source event stream (immutable)
-
-やや中盤より
-> `Using hot replicas`
->
-> Figure 7-5 shows a three-instance deployment with an internal state store replication factor of 2. Each stateful partition is `materialized twice, once as the leader and once as a replica.
->
-> 略
->
-> Figure 7-5. Stream-table join with three instances and two hot replicas per materialized input partition
+  - やや中盤より
+    - > `Using hot replicas`
+    - > Figure 7-5 shows a three-instance deployment with an internal state store replication factor of 2. `Each stateful partition is materialized twice`, once as the leader and once as a replica.
+    - > ... (略)
+    - > Figure 7-5. Stream-table join with three instances and two hot replicas per materialized input partition
 
 ---
 
 ### Chap.8
 
-- ChoreographyとOrchestrationの違いについて整理
+- ChoreographyとOrchestrationの違いについて整理したので添削お願いします。
   - |          |Choreography |Orchestration|
     |----------|-------------|-------------|
     |mediator  |なし          |あり         |
@@ -35,7 +31,7 @@ Q. （ Each stateful partitionが）Materialized、実体化されるとは、�
   - Orchestrationはdirect-call（サービスのAPIを直叩き）アリ、なしの2つがある。
   - なしの場合、event brokerがいる。
 
-- Compensation Workflowsとその一例としてのチケット在庫システムを通じて、sagaの欠点として言われる `Isolation` について少し理解
+- Compensation Workflowsとその一例としてのチケット在庫システムを通じて、sagaの欠点として言われる `Isolation` について少し理解したので添削してほしいです。
   - これまでの読書会でもsagaは出てきましたが、Isolationが欠けているとはなんなのか？分かっていなかったと認識。
   - Isolationとは、ローカル・トランザクションの結果が他サービスに見えていない状態。
     - 例でいう、「割引クーポン付与」（compenstaion workflow）というトランザクションと、チケット在庫管理システムの注文を受けてから在庫確認をするトランザクションは本来は双方の結果を知らない。
