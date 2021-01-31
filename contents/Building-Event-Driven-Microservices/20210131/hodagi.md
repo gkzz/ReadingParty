@@ -97,6 +97,13 @@ https://github.com/ahmetb/go-linq
 [イベントソーシングパターン](https://docs.microsoft.com/ja-jp/azure/architecture/patterns/event-sourcing)からの引用。
 本書で靄っとしていた内容についてだいたい知りたいこと書いてあった。
 
+→上記の内容って、あんまり関係なかった。。
+
+>* stateとして扱うEvent
+>  * 送金元、送金先、金額、日付、時刻の詳細が記載された銀行口座振替
+>  * 各商品、購入者、日付、時刻、合計金額、支払いプロバイダーの詳細が記載されたeコマース注文
+>  * 各イベントに関連付けられているorderId（既存の一意のデータIDを使用する）出荷目的で借方記入された在庫
+
 ## オフトピ
 * Why we moved from Apache Kafka to Apache Pulsar
   * どうしてApache KafkaからApache Pulsarに移ったのか？ 
@@ -115,3 +122,21 @@ Apache Kafkaは、`tiered storage`機能がなかったので、ストレージ�
 
 * After
 ![](https://learning.oreilly.com/library/view/building-event-driven-microservices/9781492057888/assets/bedm_0709.png)
+
+# Chapter 8. Building Workflows with Microservices
+
+* 実装にかんする具体的な紹介記事がないかなと思ったらMicroservice Patternの例をgolangで実装していた人がいらっしゃった。
+[Choreography-based saga をローカルで実験するためのフレームワーク](https://enakai00.hatenablog.com/entry/2020/08/03/234301)
+
+* The Choreography Pattern vs The Orchestration Pattern
+  * Kubernetesの内実はコンテナオーケストレーションだけど、コレオグラフィパターンに近い。
+
+>gkzzさんのメモ
+>sagaの欠点として言われる `Isolation`
+
+IsolationはACID特性の一つ。[トランザクションを複数同時に実行しても、単独実行の場合と同じ処理結果にならなければならない。](https://www.atmarkit.co.jp/ait/articles/1703/01/news194.html)
+
+>このため複数のサーガが並行して実行される際、そのままでは Lost Update6 や Dirty Read 7 といった「異常（anomaly）」が生じうる。これを防ぐ技法が countermeasure で、Semantick Lock、Commutative Updates8、Pessimistic View9、Reread Value10、Version File11、By Value12 といったものがある。Saga パターンでは Semantic Lock を中心に、必要に応じて他の countermeasure を併用する。
+>https://qiita.com/yasuabe2613/items/b0c92ab8c45d80318420#countermeasure
+
+The Orchestration Patternは、KafkaをStreamとして扱うパターン。
