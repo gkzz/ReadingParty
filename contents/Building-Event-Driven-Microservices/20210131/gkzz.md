@@ -44,10 +44,10 @@
 ## 読書メモ
 
 ### Chap. 7 Stateful Streaming
-> how to build, manage, and use state for event-driven microservices.
+- > how to build, manage, and use state for event-driven microservices.
 
 #### Materialized state/State store
-- Materialized state
+- - Materialized state
   - > immutable 
   -  > enable you to use common business entities in your microservice applications
 - State store
@@ -61,8 +61,8 @@
      - Syn: happen, occur, come about take place
 
 #### `where the service will store its data`
-> `Internally`, such that the data is stored in the same container as the processor, `allocated in memory or on disk`
-> `Externally`, such that the data is stored outside of the processor’s container, in some form of external storage service. `This is often done across a network.`
+- > `Internally`, such that the data is stored in the same container as the processor, `allocated in memory or on disk`
+- > `Externally`, such that the data is stored outside of the processor’s container, in some form of external storage service. `This is often done across a network.`
 
 - `allowcation`
   - noun
@@ -103,15 +103,14 @@ Source:  [Facebook、Key-Valueストア「RocksDB」をオープンソース化�
   - > Full data locality  
 
 #### Disadvantages of Using Internal State | Limited to using runtime-defined disk
-> In addition, many compute resource management solutions `allow only for volume size to be increased,` as decreasing a volume’s size means that data would need to be deleted.
+- > In addition, many compute resource management solutions `allow only for volume size to be increased,` as decreasing a volume’s size means that data would need to be deleted.
 
-cf. [EC2にアタッチしているEBSボリュームのサイズは縮小できますか？ – 株式会社サーバーワークス サポートページ](https://support.serverworks.co.jp/hc/ja/articles/115001410714-EC2%E3%81%AB%E3%82%A2%E3%82%BF%E3%83%83%E3%83%81%E3%81%97%E3%81%A6%E3%81%84%E3%82%8BEBS%E3%83%9C%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%A0%E3%81%AE%E3%82%B5%E3%82%A4%E3%82%BA%E3%81%AF%E7%B8%AE%E5%B0%8F%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%81%8B-)
+- cf. [EC2にアタッチしているEBSボリュームのサイズは縮小できますか？ – 株式会社サーバーワークス サポートページ](https://support.serverworks.co.jp/hc/ja/articles/115001410714-EC2%E3%81%AB%E3%82%A2%E3%82%BF%E3%83%83%E3%83%81%E3%81%97%E3%81%A6%E3%81%84%E3%82%8BEBS%E3%83%9C%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%A0%E3%81%AE%E3%82%B5%E3%82%A4%E3%82%BA%E3%81%AF%E7%B8%AE%E5%B0%8F%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%81%8B-)
 
-
-> Apache Kafka has this functionality built into its Streams framework via a simple configuration setting. This setting `provides highly available state stores and enables the microservice to tolerate instance failures with zero downtime.`
+- > Apache Kafka has this functionality built into its Streams framework via a simple configuration setting. This setting `provides highly available state stores and enables the microservice to tolerate instance failures with zero downtime.`
 
 - `num.standby.replicas` 深堀
-> The number of standby replicas. Standby replicas are shadow copies of local state stores. Kafka Streams attempts to create the specified number of replicas per store and keep them up to date as long as there are enough instances running. Standby replicas are used to minimize the latency of task failover. A task that was previously running on a failed instance is preferred to restart on an instance that has standby replicas so that the local state store restoration process from its changelog can be minimized. Details about how Kafka Streams makes use of the standby replicas to minimize the cost of resuming tasks on failover can be found in the State section.
+  - > The number of standby replicas. Standby replicas are shadow copies of local state stores. Kafka Streams attempts to create the specified number of replicas per store and keep them up to date as long as there are enough instances running. Standby replicas are used to minimize the latency of task failover. A task that was previously running on a failed instance is preferred to restart on an instance that has standby replicas so that the local state store restoration process from its changelog can be minimized. Details about how Kafka Streams makes use of the standby replicas to minimize the cost of resuming tasks on failover can be found in the State section.
 
 [Apache Kafka](https://kafka.apache.org/documentation/streams/developer-guide/config-streams.html#num-standby-replicas)
 
