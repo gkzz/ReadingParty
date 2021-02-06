@@ -1,5 +1,5 @@
-# 「Building Event-Driven Microservices」の7,8章
-2021/01/31(Sun) 09:00am-10:30am
+# 「Building Event-Driven Microservices」の9,10章
+2021/02/07(Sun) 09:00am-10:30am
 
 ## 読書会当日に話したいこと
 
@@ -10,6 +10,9 @@
 
   - cf: [Apache KafkaのProducer/Broker/Consumerのしくみと設定一覧 - Qiita](https://qiita.com/sigmalist/items/3b512e2ab49b07271665)
     - > Consumerはアプリケーションの再起動時に、自身のOffsetから再開できるようOffsetを永続化する必要があります。そのため、Consumerは自身のOffsetをKafka上のOffset用Topicや、任意のデータストアに保存します。
+
+### Chap. 10 Basic Producer and Consumer Microservices
+なし
 
 ---
 
@@ -45,7 +48,7 @@
 - Using Webhooks
 - on Resource Events
 
----
+#### 単語帳(順不同)
 
 - `albeit`
   - conjunction
@@ -70,6 +73,8 @@
 - `a rule of thub`
   - meaning: A rule of thumb is a guideline, idea, or principle that helps you make decisions. 
     -  e.g.: "Arrive early" is a good rule of thumb for most appointments.  
+
+---
 
 ### Chap. 10 Basic Producer and Consumer Microservices
 #### Basic producer and consumer (BPC) microservices 
