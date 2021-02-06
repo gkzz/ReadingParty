@@ -59,3 +59,6 @@
     - Push subscriber throughput per region: 1,200,000 kB per minute (20 MB/s) in large regions
     - StreamingPull subscriber throughput per region: 24,000,000 kB per minute (400 MB/s) in large regions
     - までシャーディング考慮不要で速度出せるのだけれど
+  - FaaS
+    - 1リクエスト=1インスタンスでリソースが確実に配置される
+    - VMに比しての立ち上がりの速さ(スパイク耐性)
