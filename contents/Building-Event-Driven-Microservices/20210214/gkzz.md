@@ -13,10 +13,14 @@
     - Amazon Kinesis's user: Lyft, Zillow
     - Google Cloud Dataflow: Spotify, Resultados Digitais, Kapten. 
 
-
 ### Chap. 12 Lightweight Framework Microservices
 なし
 
+### 章関係なし
+- GCPのpub/subすごいと思った
+  - [Pub/Sub によりこれまで以上にアクセスしやすくなったスケーラブルなリアルタイム分析 | Google Cloud Blog](https://cloud.google.com/blog/ja/products/data-analytics/move-from-batch-to-stream-processing-for-real-time-analytics-with-pub-sub)
+    - > Google サービスは 10年以上にわたって、このインフラストラクチャを使用して 1 秒間に億単位のイベントを処理してきました。数年前、このシステムは Cloud Pub/Sub として世界中で利用できるようになりました。
+  - [GCPでSagaパターン実装](https://zenn.dev/tkatsuma/articles/2c443fa4fb5bd7)
 ---
 
 ## 読書メモ
