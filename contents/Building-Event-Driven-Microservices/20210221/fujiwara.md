@@ -1,16 +1,3 @@
-# 「Building Event-Driven Microservices」の13章
-2021/02/21(Sun) 09:00am-10:30am
-
-## 読書会当日に話したいこと
-### Chapter 13. Integrating Event-Driven and Request-Response Microservices
-
-* Autonomously Generated Events
-* Reactively Generated Events
-* Handling Autonomously Generated Analytical Events
-* Integrating with Third-Party Request-Response APIs
-* Processing and Serving Stateful Data
-
-
 ## 読書メモ
 
 ### Chapter 13. Integrating Event-Driven and Request-Response Microservices
