@@ -179,12 +179,14 @@ Source:  [Facebook、Key-Valueストア「RocksDB」をオープンソース化�
 
   -  choreography
   - > In choreography, each service calls other services as needed, without a central mediator. 
-  - [Figure 17-7. Using choreography in microservices to manage coordination](http://fundamentalsofsoftwarearchitecture.com/images/book/fosa_1707.png)
+  - Figure 17-7. Using choreography in microservices to manage coordination
+    - <img src="http://fundamentalsofsoftwarearchitecture.com/images/book/fosa_1707.png" style="max-width:40%;">
 
   - orchestration
   - > In Figure 17-8, the developers create a service whose sole responsibility is coordinating the call to get all information for a particular customer. T
 
-  - [Figure 17-8. Using orchestration in microservices](http://fundamentalsofsoftwarearchitecture.com/images/book/fosa_1708.png)
+  - Figure 17-8. Using orchestration in microservices
+    - <img src="http://fundamentalsofsoftwarearchitecture.com/images/book/fosa_1708.png" style="max-width:40%;">
 
 - [マイクロサービスアーキテクチャにおけるオーケストレーションとコレオグラフィ - Qiita](https://qiita.com/kawasima/items/17475a993e03f249a077)
 

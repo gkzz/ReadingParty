@@ -52,7 +52,7 @@
         - > Good software design has high cohesion and low coupling. 
         - > Cohesion is the indication of the relationship within a module
         - > Coupling is the indication of the relationships between modules
-        - ![](https://i.imgur.com/RYfnrEg.png =300x)
+        - <img src="https://i.imgur.com/RYfnrEg.png" style="max-width:40%;">
     - > Conversely, aligning microservices on technical requirements is problematic
       - `problematic` (adj)
         - meaning: constituting or presenting a problem. 

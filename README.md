@@ -14,3 +14,10 @@ contents
     │   └── gkzz.md                      ## ${YOUR_GITHUB_ACCOUNT}
     └── info.md                          ## links of ${BOOK_TITLE}
 ```
+
+## FAQ
+- How to find my reading notes including "png"?
+```
+$ NAME=gkzz\
+&& find contents/ -regex .*/*/${NAME}.md | xargs grep -n png
+```
