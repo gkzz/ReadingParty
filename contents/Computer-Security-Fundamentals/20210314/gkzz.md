@@ -131,3 +131,19 @@
 ---
 - [2020年の10大セキュリティ事件、2位に大差をつけた1位は「ドコモ口座」問題 | マイナビニュース](https://news.mynavi.jp/article/20201215-1593933/)
 - [ビザスクの情シスが激動の2020年を振り返る | VISASQ TECH BLOG](https://tech.visasq.com/it-team-2020/)
+
+---
+#### About the author
+- Linkedin says to me:
+  - > Dr. Chuck Easttom is currently in his own consulting practice both consulting and conducting research. He is also an adjunct lecturer at Georgetown University. He is the author of 31 books, including several on computer security, forensics, and cryptography. His books are used at over 60 universities. He has also authored scientific papers (over 70 so far) on digital forensics, machine learning/AI, cyber warfare, cryptography, bio-engineering, and applied mathematics.
+  - Source: [Chuck Easttom, M.Ed., MBA, MSSE, Ph.D., D.Sc. | LinkedIn](https://www.linkedin.com/in/chuck-easttom-m-ed-mba-msse-ph-d-d-sc-482568184/)
+
+---
+### Introduction
+- > Who is this book for?
+  - > The book is in textbook format, making it ideal for introductory computer security courses that have no specific prerequisites. 
+
+----
+- `computer-savvy`
+  - > So someone who is COMPUTER SAVVY means they have good experience with using computers. It can sometimes be seen as computer-savvy. Those who have poor skills in using computers would not be computer savvy. It usually refers to someone who can do more than just type an email or create a Word document.
+  - Source: [Fun English learning site for students and teachers - The English Student](http://www.theenglishstudent.com/blog/computer-savvy)
