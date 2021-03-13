@@ -1,5 +1,5 @@
 # 「Computer Security Fundamentals, 4th Edition」の1章
-2021/02/28(Sun) 09:00am-10:30am
+2021/03/14(Sun) 09:00am-10:30am
 
 ## 読書会当日に話したいこと
 
@@ -126,7 +126,7 @@
   - > to natural barriers or built fortifications to either keep intruders out or to keep captives contained within the area the boundary surrounds.
     - Source: [Perimeter security - Wikipedia](https://en.wikipedia.org/wiki/Perimeter_security)
   - > ドメインの境界であり、その中でセキュリティ ポリシー、もしくは、セキュリティアーキテクチャが適用される。； すなわち、空間の境界であり、その中で、セキュリティサービスがシステム資源を防護する。
-  - Souce: [Internet Security Glossary](https://www.ipa.go.jp/security/rfc/RFC2828-03SJA.html)
+    - Souce: [Internet Security Glossary](https://www.ipa.go.jp/security/rfc/RFC2828-03SJA.html)
 
 ---
 - [2020年の10大セキュリティ事件、2位に大差をつけた1位は「ドコモ口座」問題 | マイナビニュース](https://news.mynavi.jp/article/20201215-1593933/)
