@@ -28,11 +28,11 @@
 
 ####  Concepts and Approaches
 - Figure 1.1 The McCumber cube.
-  - Source: [Introduction to Computer Security | Introduction | Pearson IT Certification](https://www.pearsonitcertification.com/articles/article.aspx?p=2990398)
+  - Source: [Concepts and Approaches | Introduction to Computer Security | Pearson IT Certification](https://www.pearsonitcertification.com/articles/article.aspx?p=2990398&seqNum=6)
 <img src="https://i.gyazo.com/c894c34c66e923a61e52d9a1cc968118.jpg" style="max-width:40%;">
 
 - Figure 1.2 The security approach guide.
-  -  Source: [Introduction to Computer Security | Introduction | Pearson IT Certification]
+  -  Source: [Concepts and Approaches | Introduction to Computer Security | Pearson IT Certification](https://www.pearsonitcertification.com/articles/article.aspx?p=2990398&seqNum=6)
    <img src="https://i.gyazo.com/adf854854d9668232a0e9af37aea2b24.jpg" style="max-width:40%;">
 
 #### Test Your Skills  
