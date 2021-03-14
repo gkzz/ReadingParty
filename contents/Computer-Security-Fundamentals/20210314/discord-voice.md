@@ -20,3 +20,8 @@
 
 - ブラウザ上の開発環境
   - cf. [Welcome! - Gitpod](https://gitpod.io/#https://github.com/prometheus/prometheus)
+
+- > データベースの暗号化には、(1)アプリケーションで値を暗号化する、(2)データベースの暗号化機能を利用する、(3)ストレージをOSの機能などで暗号化する、などの方式があります。練習問題として、それぞれの方式がどの脅威に対応するものかを考えてみると良いでしょう。
+https://twitter.com/ockeghem/status/1370920859674714113?s=20
+
+- [オープンソースの SQL インジェクション脆弱性診断ツールの sqlmap を Kali Linux で使ってみる](https://www.websec-room.com/2014/03/09/1864)
