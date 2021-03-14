@@ -11,13 +11,13 @@ Computer Security Fundamentals, 4th Edition
   - [READING.24 #技術書を英語で読む会 - connpass](https://reading.connpass.com/event/203283/)
 
 - [20210321](./20210321)
-  - Chapter.2
+  - Chapter.3
   - [READING.25 #技術書を英語で読む会 - connpass](https://reading.connpass.com/event/204645/)
 
 - [20210328](./20210328)
-  - Chapter.3
+  - Chapter.4
   - [READING.26 #技術書を英語で読む会 - connpass](https://reading.connpass.com/event/206092/)
 
 - [20210404](./20210404)
-  - Chapter.4
+  - Chapter.5
   - [READING.27 #技術書を英語で読む会 - connpass](https://reading.connpass.com/event/206093/)
