@@ -9,10 +9,7 @@
   - 問題となった理由は「個人情報保護法違反」
     - cf. [個人情報保護委、LINEに報告求める　法的措置も視野：朝日新聞デジタル](https://www.asahi.com/articles/ASP3M6GC4P3MULZU010.html)
     - cf. [管理不備と報じられたLINEの問題についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2021/03/19/072110)
-- 昨年、これに近いことに遭遇していましたが、みなさんはどうでしたか？
 - [アマゾンでマスク詐欺報告相次ぐ　マーケットプレイスで「商品すり替え」「送料50万円」「届かない」など - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2003/25/news135.html)
-  - 当時はどこにいってもマスクがない状況で、半信半疑で注文。
-  - 注文後、ちょくちょく発送状況を確認し、配達予定日になっても商品が届かないので問い合わせをし、キャンセルとなる。
   - cf. [Amazon.co.jp: カスタマー Q＆A](https://www.amazon.co.jp/ask/questions/asin/B0851ZKQYM/)
 
 ---
