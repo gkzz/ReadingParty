@@ -130,8 +130,8 @@
 - [ASCII.jp：最近は目立ちにくいDDoS攻撃が増加している][ref-ascii]
 - [日産自動車のWebサイト閲覧障害についてまとめてみた - piyolog][ref-piyolog]
 - [Wiresharkを使った通信監視（後編）――コマンドラインベースでのパケットキャプチャ | さくらのナレッジ][ref-sakura]
-- [TCP/IP - TCP 3ウェイハンドシェイク](ref-infraexpart)
-- [SYN cookies - Wikipedia](ref-wiki-syn)
+- [TCP/IP - TCP 3ウェイハンドシェイク][ref-infraexpart]
+- [SYN cookies - Wikipedia][ref-wiki-syn]
 
 [ref-cloudflare]:https://www.cloudflare.com/learning/ddos/syn-flood-ddos-attack/
 [ref-peing]:https://peing.net/en/q/8d995b56-837d-41ab-9c65-bd8dd0e11c4f
