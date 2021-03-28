@@ -137,6 +137,6 @@
 [ref-peing]:https://peing.net/en/q/8d995b56-837d-41ab-9c65-bd8dd0e11c4f
 [ref-ascii]:https://ascii.jp/elem/000/004/016/4016335/
 [ref-piyolog]:https://piyolog.hatenadiary.jp/entry/20160116/1452985392
-
+[ref-sakura]:https://knowledge.sakura.ad.jp/6311/
 [ref-infraexpart]:https://www.infraexpert.com/study/tcpip9.html
 [ref-wiki-syn]:https://ja.wikipedia.org/wiki/SYN_cookies
