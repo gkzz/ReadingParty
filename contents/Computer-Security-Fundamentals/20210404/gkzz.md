@@ -41,7 +41,7 @@
 - 1. John is a network security administrator for a midsized college. He is trying to explain to a new hire what a virus is. Which of the following is the best definition of virus?
   - D. A program that self-replicates
 
-- 2.Any rapidly spreading virus can reduce the functionality and responsiveness of a network. Isabelle is responsible for cybersecurity at her company. She is concerned that a virus would cause damage to the IT systems. What is the most common damage caused by virus attacks?
+- 2. Any rapidly spreading virus can reduce the functionality and responsiveness of a network. Isabelle is responsible for cybersecurity at her company. She is concerned that a virus would cause damage to the IT systems. What is the most common damage caused by virus attacks?
   - A. Slowing down networks by the virus traffic
   
 - 3. You are trying to form policies for your organization to mitigate the threat of viruses. You want to ensure that you address the most common way for a virus to spread. What is the most common way for a virus to spread?
@@ -129,6 +129,7 @@
   - > a falsehood deliberately fabricated to masquerade as the truth. It is distinguishable from errors in observation or judgment, rumors, urban legends, pseudosciences, and April Fools' Day events that are passed along in good faith by believers or as jokes.
     - Source: [Hoax - Wikipedia](https://en.wikipedia.org/wiki/Hoax)
 - `devastating`
+  - adj
   - meaning: highly destructive or damaging.
     - e.g.: "a devastating cyclone"
     - Syn: destructive
