@@ -2,6 +2,11 @@
 
 Chapter 2. First Steps with Kubernetes
 
+## 深堀したいこと
+なし
+
+---
+## 読書メモ
 
 - cf. [Use multi-stage builds | Docker Documentation](https://docs.docker.com/develop/develop-images/multistage-build/)
 - cf. [Multi-stage builds #3: Speeding up your builds](https://pythonspeed.com/articles/faster-multi-stage-builds/)

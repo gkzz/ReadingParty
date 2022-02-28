@@ -2,6 +2,13 @@
 
 Chapter 3. Getting Kubernetes
 
+## 深堀したいこと
+
+なし
+
+---
+## 読書メモ
+
 ![image](https://user-images.githubusercontent.com/38461277/155911031-c223b007-e67d-4a6e-a95e-6842c8f4b03e.png)
 Ref. [How Kubernetes works | Cloud Native Computing Foundation](https://www.cncf.io/blog/2019/08/19/how-kubernetes-works/)
 - 用語集
